@@ -1,0 +1,46 @@
+Les semi-conducteurs :
+
+1. Un bref historique
+
+En 1971, l’expression de «Silicon Valley» (le silicium, silicon en anglais, étant le matériau de base des puces électroniques) fut employée pour la première fois par le journaliste Don Hoefler. En effet, il constatait alors 
+la forte concentration d’entreprises de semi-conducteurs dans la vallée de Santa Clara.
+
+Ces dernières années, l'Europe et plus particulièrement la France, ont choisi d'investir dans ces matériaux prometteurs. Ainsi, une usine de production a ouvert à Grenoble et de nombreux projets de recherches sont menés en partenariat avec le CEA-Leti. Le CEA-Leti est un institut de recherche technologique de CEA Tech situé en région Auvergne-Rhône-Alpes. Le CEA est un organisme de recherche technologique financé par l'État français dans quatre grands domaines : les énergies bas carbone, la défense et la sécurité, les technologies de l'information. 
+
+
+2. Qu'est-ce qu'un semi-conducteur ?
+
+Un semi-conducteur est un matériau isolant, qui contrairement à un conducteur, ne laisse donc pas passer le courant électrique. Mais son avantage est que l'on peut le rendre conducteur dans certaines conditions (en augmentant sa température par exemple).
+
+La conductivité électrique des semi-conducteurs peut ainsi être contrôlée par dopage, en introduisant une petite quantité d'impuretés dans le matériau afin de produire un excès d'électrons ou un déficit. Des semi-conducteurs dopés différemment peuvent être mis en contact afin de créer des jonctions. Cela permet de contrôler la direction et la quantité de courant qui traverse l'ensemble. C'est cette propriété qui est à la base du fonctionnement des composants de l'électronique moderne : diodes, transistors, etc.
+
+
+3. Quels sont les semi-conducteurs ?
+
+Les principaux semi-conducteurs sont 
+- le germanium (Ge), 
+- le silicium (Si), 
+- le sélénium (Se), 
+
+les composés binaires : 
+- arséniure de gallium (GaAs), 
+- antimoniure d'indium (InSb), 
+- phosphure de gallium (GaP) 
+- phosphure d'indium, 
+ainsi que les composés ternaires et quaternaires.
+
+
+4. Une idée d'application future
+
+En fournissant des architectures d'accélérateurs de nouvelle génération, les entreprises de semi-conducteurs pourraient
+augmenter l'efficacité de calcul ou faciliter le transfert de grands ensembles de données via la mémoire et le stockage. Par exemple, la mémoire spécialisée pour l'IA a 4,5 fois plus de bande passante que la mémoire traditionnelle, ce qui la rend bien mieux adaptée à la gestion des vastes réserves de données volumineuses dont les applications d'IA ont besoin.
+
+
+Sources :
+- https://www.leti-cea.fr/
+- https://www.mckinsey.com/~/media/McKinsey/Industries/Semiconductors/Our%20Insights/Artificial%20intelligence%20hardware%20New%20opportunities%20for%20semiconductor%20companies/Artificial-intelligence-hardware.ashx
+
+
+
+
+

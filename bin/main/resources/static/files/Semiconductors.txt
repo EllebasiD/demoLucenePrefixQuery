@@ -1,0 +1,46 @@
+Semiconductors:
+
+1. A brief history
+
+In 1971, journalist Don Hoefler, noting the high concentration of semiconductor companies in the Santa Clara Valley, used for the first time the expression "Silicon Valley" (silicon, silicon in English, being the material base of microchips).
+
+In recent years, Europe and more particularly France have chosen to invest in these promising materials. Thus, a production plant has opened in Grenoble and many research projects are carried out in partnership with CEA-Leti. CEA-Leti is a technological research institute of CEA Tech located in the Auvergne-Rhône-Alpes region. The CEA is a technological research organization funded by the French State in four main areas: low-carbon energies, defense and security, and information technologies.
+
+
+2. What is a semiconductor ?
+
+A semiconductor is an insulating material, which therefore does not allow electric current to pass, but which can be made conductive under certain conditions (by increasing its temperature for example).
+
+The electrical conductivity of semiconductors can be controlled by doping, introducing a small amount of impurities into the material to produce an excess of electrons or a deficit. Differently doped semiconductors can be brought into contact to create junctions, controlling the direction and amount of current flowing through the assembly. This property is the basis of the functioning of modern electronic components: diodes, transistors, etc.
+
+
+3. What are semiconductors ?
+
+The main semiconductors are
+- germanium (Ge),
+- silicon (Si),
+- selenium (Se),
+
+binary compounds:
+- gallium arsenide (GaAs),
+- indium antimonide (InSb),
+- gallium phosphide (GaP)
+- indium phosphide,
+as well as ternary and quaternary compounds.
+
+
+4. An idea for a future app
+
+By providing next-generation accelerator architectures, semiconductor companies could increase computational efficiency or facilitate the transfer of large data sets through memory and storage. For instance, specialized memory for AI has 4.5 times more bandwidth than traditional memory, making it much better suited to handling the vast stores of big data that AI applications require.
+
+
+
+
+Sources :
+- https://www.leti-cea.fr/
+- https://www.mckinsey.com/~/media/McKinsey/Industries/Semiconductors/Our%20Insights/Artificial%20intelligence%20hardware%20New%20opportunities%20for%20semiconductor%20companies/Artificial-intelligence-hardware.ashx
+
+
+
+
+
