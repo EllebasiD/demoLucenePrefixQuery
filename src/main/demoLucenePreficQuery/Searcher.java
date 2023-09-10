@@ -73,7 +73,7 @@ public class Searcher {
     * @throws IOException	This exception is thrown for signaling run-time failure of reading and writing operations.
     */
    public Document getDocument(ScoreDoc scoreDoc) throws CorruptIndexException, IOException {
-	   return indexSearcher.doc(scoreDoc.doc);	
+	   return indexSearcher.storedFields().document(scoreDoc.doc);
    }
    /**
     * This method closes the index searcher.

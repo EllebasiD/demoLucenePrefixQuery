@@ -10,8 +10,10 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.CorruptIndexException;
+import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Term;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 /**
@@ -27,7 +29,9 @@ public class Indexer {
     // =            Constructor             =
     // ====================================== 
 	public Indexer(String indexDirectoryPath) throws IOException {
+		//this directory will contain the indexes
 		Directory indexDirectory = FSDirectory.open(Paths.get(indexDirectoryPath));
+		//create the indexer
 	    StandardAnalyzer analyzer = new StandardAnalyzer();
 	    IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
 	    writer = new IndexWriter(indexDirectory, iwc);
@@ -37,11 +41,8 @@ public class Indexer {
 	 * 
 	 * @throws CorruptIndexException	This exception is thrown when Lucene detects an inconsistency in the index.
 	 * @throws IOException	This exception is thrown for signaling run-time failure of reading and writing operations.
-	 */
-	
+	 */	
 	public void close() throws CorruptIndexException, IOException {
-		writer.deleteAll();
-		System.out.println("Index deleted");
 		writer.close();
 	}
 	/**
@@ -53,8 +54,11 @@ public class Indexer {
 	 */
 	private Document getDocument(File file) throws IOException {
 		Document document = new Document();
+		//index file contents
 	    TextField contentField = new TextField(LuceneConstants.CONTENTS, new FileReader(file));
+	    //index file name
 	    TextField fileNameField = new TextField(LuceneConstants.FILE_NAME, file.getName(),TextField.Store.YES);
+	    //index file path
 	    TextField filePathField = new TextField(LuceneConstants.FILE_PATH, file.getCanonicalPath(),TextField.Store.YES);
 	    document.add(contentField);
 	    document.add(fileNameField);
@@ -82,7 +86,8 @@ public class Indexer {
 	  * @throws IOException	This exception is thrown for signaling run-time failure of reading and writing operations.		
 	  */
 	 public int createIndex(String dataDirPath, FileFilter filter) throws IOException {
-		 File[] files = new File(dataDirPath).listFiles();
+		//get all files in the data directory
+		File[] files = new File(dataDirPath).listFiles();
 	    for (File file : files) {
 	    	if(!file.isDirectory() && !file.isHidden() && file.exists() && file.canRead() && filter.accept(file)){
 	    		indexFile(file);
@@ -90,5 +95,4 @@ public class Indexer {
 	    }
 	    return writer.numRamDocs();
 	 }
-
 }
