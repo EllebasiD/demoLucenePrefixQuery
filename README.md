@@ -1,4 +1,6 @@
 # demoLucenePrefixQuery
+Indexation de documents et recherches de texte avec Java - Lucene 
+
 
 Il s'agit d'un programme que j'ai réalisé afin de tester les prefix queries de la bibliothèque de recherche basée sur Java : Lucene. 
 
